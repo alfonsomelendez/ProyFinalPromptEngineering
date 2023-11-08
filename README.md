@@ -12,5 +12,11 @@ El Proyecto que estoy desarrollando actualmente tiene que ver con el tema de Gra
 y tengo dos objetivos concretos: 
 
 1. Dictar en el semestre 2024-2 Un curso de [Graph machine Learning](https://distill.pub/2021/gnn-intro/) de manera conjunta con profsores de la Universidad Nacional
-2. Escribir un libro de [Ciencia de Redes](https://github.com/jamelende/LibroCienciaDeRedes) donde uno de sus capítulos es  sobre Graph Machine Learning.
+2. Escribir un libro de [Ciencia de Redes](https://github.com/jamelende/LibroCienciaDeRedes) donde uno de sus capítulos (Capítulo 8) es  sobre Graph Machine Learning.
+
+### Actividades dentro del curso
+
+Las actividades que se desarrollaron en el curso como apoyo al desarrollo del proyecto fueron las siguientes:
+
+1. Creación de una [página web](http://profesores.is.escuelaing.edu.co/~amelendez/GraphMachineLearning/P%C3%A1ginaWebGraphMachineLearning2023-2.html) que contiene el estado del arte y diferentes recursos y enlaces del tema de Graph Machine Learning
    
