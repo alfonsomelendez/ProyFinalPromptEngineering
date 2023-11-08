@@ -32,6 +32,7 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
       a. Predicción de nodos en una red
       b. Predicción de enalces en una red.
 
+### Pregunta al ChatGpt
 Después de varios intentos, la pregunta realizada al ChatGpt fue la siguiente:
 
 > **_Pregunta:_** Hello I am a teacher working  in an area called Graph machine Learning I hae a collection of graphs or networks in GML format and I Want to convert them to the format that uses the Libary PY Torch Geometric of standfors University. This format is a format  that uses the following attributes:
@@ -42,6 +43,7 @@ Después de varios intentos, la pregunta realizada al ChatGpt fue la siguiente:
 4. data.y: Target to train  (may have arbitrary shape), e.g., node-level targets of shape [num_nodes, *] or graph-level  of shape [1, *]
 5. data.pos: Node position matrix with shape [num_nodes, num_dimensions]
 
+### Respuesta del ChatGpt
 
 La respuesta dada por el ChatGpt fue la siguiente:
 
