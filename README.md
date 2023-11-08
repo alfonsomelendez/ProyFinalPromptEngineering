@@ -28,7 +28,7 @@ Este ejemplo se encuentra como un repositorio de GitHUb, el enlace es: [GML](htt
 Como Actividad final se propuso usar el ChatGpt haciendo consultas de la forma más detallada posible con el objetivo de obtener un apoyo en la generación de código Python para el Proyecto Personal.
 En este caso se realizó la interacción con ChatGpt con el objetivo de :
 
-1. Construir un algoritmo para convertir archivos de redes o grafos en formato GML, al formato usado por la librería PYG (Py Torch Geometric) de la Universidad  de Stanford con el fin de usar estos archivos en procesos de Graph Machine Learning como:
+1. Construir un algoritmo para convertir archivos de redes o grafos en formato GML, al formato usado por la librería PYG (PyTorch Geometric) de la Universidad  de Stanford con el fin de usar estos archivos en procesos de Graph Machine Learning como:
       a. Predicción de nodos en una red
       b. Predicción de enalces en una red.
 
@@ -45,7 +45,7 @@ Después de **muchos** intentos, la pregunta final más específica realizada al
 
 ### Respuesta del ChatGpt
 
-El ChatGPT respondió con un algoritmo o proceso específico para cada atributo del grafo en el formato usado por la librería PyTorch Geometric, este código al ser colocado  en un Jupyter Notebook reemplazando los datos ficticios por los datos reales del grafo en formato GML, **dió lugar ala conversión correcta de los grafos**.  La respuesta dada por el ChatGpt fue la siguiente:
+El ChatGPT respondió con un algoritmo o proceso específico para cada atributo del grafo en el formato usado por la librería PyTorch Geometric, este código al ser colocado  en un Jupyter Notebook reemplazando los datos ficticios por los datos reales del grafo en formato GML, **dió lugar a la conversión correcta de los grafos**.  La respuesta dada por el ChatGpt fue la siguiente:
 
 To convert your GML format graphs into the format required by PyTorch Geometric, which includes the attributes `data.x`, `data.edge_index`, `data.edge_attr`, `data.y`, and `data.pos`, you'll need to follow a specific process for each of these attributes:
 
