@@ -34,40 +34,7 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
 
 Después de varios intentos, la pregunta realizada al ChatGpt fue la siguiente:
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Title</title>
-    <style>
-      /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
-      /* The . with the boxed represents that it is a class */
-      .boxed {
-        background: #F2F2F2;
-        color: black;
-        border: 3px solid #535353;
-        margin: 0px auto;
-        width: 456px;
-        padding: 10px;
-        border-radius: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- This is the markup of your box, in simpler terms the content structure. -->
-    <div class="boxed">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quos esse
-      at. Eaque porro vel soluta vero labore. Eius possimus ipsum deleniti
-      perferendis quas perspiciatis reprehenderit adipisci fuga rerum velit.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed minus
-      voluptatem consequatur fugiat excepturi reiciendis nulla! Modi dignissimos
-      molestiae perspiciatis commodi! Autem, deleniti neque aperiam excepturi
-      sunt corrupti ipsam voluptatum!
-    </div>
-  </body>
-</html>
-
+> **_NOTE:_**  The note content.
 
 
 
