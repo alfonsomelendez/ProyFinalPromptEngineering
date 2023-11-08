@@ -3,7 +3,7 @@ Proyecto Final Curso Prompt Engineering 2023-2 Profesor Juan Carlos Correa
 
 ### Objetivo
 
-Describir el trabajo realizado a lo largo del curso con las herrmientas GitHub y ChatGpt.
+Describir el trabajo realizado a lo largo del curso con las herramientas GitHub y ChatGpt.
 
 ### Proyecto Personal
 
@@ -24,3 +24,51 @@ Este ejemplo se encuentra como un repositorio de GitHUb, el enlace es: [GML](htt
 #### (Nota el ejemplo se encuentra en los archivos Explanation1.md a Explanation5.md )
    
 ### Actividad final ChatGPT
+
+Como Actividad final se propuso usar el ChatGpt haciendo consultas de la forma más detallada posible con el objetivo de obtener un apoyo en la generación de código Python para el Proyecto Personal.
+En este caso se realizó la interacción con ChatGpt con el objetivo de :
+
+1. Construir un algoritmo para convertir archivos de redes o grafos en formato GML, al formato usado por la librería PYG (Py Torch Geometric) de la Universidad  de Stanford con el fin de usar estos archivos en procesos de Graph Machine Learning como:
+      a. Predicción de nodos en una red
+      b. Predicción de enalces en una red.
+
+Después de varios intentos, la pregunta realizada al ChatGpt fue la siguiente:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Title</title>
+    <style>
+      /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
+      /* The . with the boxed represents that it is a class */
+      .boxed {
+        background: #F2F2F2;
+        color: black;
+        border: 3px solid #535353;
+        margin: 0px auto;
+        width: 456px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is the markup of your box, in simpler terms the content structure. -->
+    <div class="boxed">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quos esse
+      at. Eaque porro vel soluta vero labore. Eius possimus ipsum deleniti
+      perferendis quas perspiciatis reprehenderit adipisci fuga rerum velit.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed minus
+      voluptatem consequatur fugiat excepturi reiciendis nulla! Modi dignissimos
+      molestiae perspiciatis commodi! Autem, deleniti neque aperiam excepturi
+      sunt corrupti ipsam voluptatum!
+    </div>
+  </body>
+</html>
+
+
+
+
+
