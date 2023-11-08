@@ -39,6 +39,6 @@ Después de varios intentos, la pregunta realizada al ChatGpt fue la siguiente:
 1. Node feature matrix with shape [num_nodes, num_node_features]
 2. data.edge_index: Graph connectivity in COO format with shape [2, num_edges] and type torch.long
 3. data.edge_attr: Edge feature matrix with shape [num_edges, num_edge_features]
-4. data.y: Target to train against (may have arbitrary shape), e.g., node-level targets of shape [num_nodes, *] or graph-level targets of shape [1, *]
+4. data.y: Target to train  (may have arbitrary shape), e.g., node-level targets of shape [num_nodes, *] or graph-level  of shape [1, *]
 5. data.pos: Node position matrix with shape [num_nodes, num_dimensions]
 
