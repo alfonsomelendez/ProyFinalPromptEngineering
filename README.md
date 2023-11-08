@@ -18,5 +18,5 @@ y tengo dos objetivos concretos:
 
 Las actividades que se desarrollaron en el curso como apoyo al desarrollo del proyecto fueron las siguientes:
 
-1. Creación de una [Página Web](http://profesores.is.escuelaing.edu.co/~amelendez/GraphMachineLearning/P%C3%A1ginaWebGraphMachineLearning2023-2.html) que contiene el estado del arte y diferentes recursos y enlaces del tema de Graph Machine Learning
+1. Creación de una [Página Web](http://profesores.is.escuelaing.edu.co/~amelendez/GraphMachineLearning/P%C3%A1ginaWebGraphMachineLearning2023-2.html) que contiene el estado del arte al igual que  diferentes recursos y enlaces del tema de Graph Machine Learning
    
