@@ -18,10 +18,12 @@ en este momento se tienen dos objetivos concretos:
 Las actividades que se desarrollaron en el curso como apoyo al desarrollo del proyecto fueron las siguientes:
 
 1. Creación de una [Página Web](http://profesores.is.escuelaing.edu.co/~amelendez/GraphMachineLearning/P%C3%A1ginaWebGraphMachineLearning2023-2.html) que contiene el estado del arte al igual que  diferentes recursos y enlaces del tema de Graph Machine Learning.
-2. Desarrollo completo de Varios ejemplos de aplicación de Graph machine Leraning( a ser inclujdos en el Libro Ciencia de redes):
+2. Desarrollo completo de Varios ejemplos de aplicación de Graph machine Leraning( a ser incluídos en el Libro Ciencia de redes):
    
-  >  Ejemplo 1: Uso del algoritmo Node2vec para predicción de nodos, predicción de enlaces y 
-  >  Ejemplo 2: Implementación de un sistema de recomendación de películas 
+  >  Ejemplo 1: Uso del algoritmo Node2vec para predicción de nodos, predicción de enlaces y
+> 
+  >  Ejemplo 2: Implementación de un sistema de recomendación de películas
+> 
   > Ejemplo 3: Introducción a los grafos dinámicos
 
 Estos tres ejemplos se encuentra como un repositorio de GitHUb, el enlace es: [GML](https://github.com/alfonsomelendez/Graph-Machine-Learning)
