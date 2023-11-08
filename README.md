@@ -19,6 +19,8 @@ en este momento se tienen dos objetivos concretos:
 Las actividades que se desarrollaron en el curso como apoyo al desarrollo del proyecto fueron las siguientes:
 
 1. Creación de una [Página Web](http://profesores.is.escuelaing.edu.co/~amelendez/GraphMachineLearning/P%C3%A1ginaWebGraphMachineLearning2023-2.html) que contiene el estado del arte al igual que  diferentes recursos y enlaces del tema de Graph Machine Learning.
-2. Desarrollo completo de un ejemplo de detección de comunidades en la [Red Karate](https://networkrepository.com/soc-karate.php), usando Graph machine Learning, en particular el algoritmo node2Vec
-3. 
+2. Desarrollo completo de un ejemplo de detección de comunidades en la [Red Karate](https://networkrepository.com/soc-karate.php), usando Graph machine Learning, en particular el método de node embedding llamado [node2Vec](https://towardsdatascience.com/node2vec-explained-db86a319e9ab).
+Este ejemplo se encuentra como un repositorio de GitHUb, el enlace es: [GML](https://github.com/alfonsomelendez/Graph-Machine-Learning)
+(Nota el ejemplo se encuentra en los archivos Explanation1.md a Explanation5.md  
+   
    
