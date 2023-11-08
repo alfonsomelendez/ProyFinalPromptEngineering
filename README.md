@@ -35,7 +35,7 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
 ### Pregunta al ChatGpt
 Después de **muchos** intentos, la pregunta final más específica realizada al ChatGpt y que tuvo como resultado un código funcional fue la siguiente:
 
-> **_Pregunta:_** Hello I am a teacher working  in an area called Graph machine Learning I hae a collection of graphs or networks in GML format and I Want to convert them to the format that uses the Libary PY Torch Geometric of standfors University. This format is a format  that uses the following attributes:
+> **_Pregunta:_** Hello I am a teacher working  in an area called Graph machine Learning I hae a collection of graphs or networks in GML format and I Want to convert them to the format that uses the Library PY Torch Geometric of standfors University. This format is a format  that uses the following attributes:
 
 1. Node feature matrix with shape [num_nodes, num_node_features]
 2. data.edge_index: Graph connectivity in COO format with shape [2, num_edges] and type torch.long
@@ -45,7 +45,7 @@ Después de **muchos** intentos, la pregunta final más específica realizada al
 
 ### Respuesta del ChatGpt
 
-La respuesta dada por el ChatGpt fue la siguiente:
+El ChatGPT respondió con un algoritmo o proceso específico para cada atributo del grafo en el formato usado por la librería PyTorch Geometric, este código al ser colocado  en un Jupyter Notebook reemplazando los datos ficticios por los datos reales del grafo en formato GML, **dió lugar ala conversión correcta de los grafos**.  La respuesta dada por el ChatGpt fue la siguiente:
 
 To convert your GML format graphs into the format required by PyTorch Geometric, which includes the attributes `data.x`, `data.edge_index`, `data.edge_attr`, `data.y`, and `data.pos`, you'll need to follow a specific process for each of these attributes:
 
