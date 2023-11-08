@@ -3,7 +3,7 @@ Proyecto Final Curso Prompt Engineering 2023-2 Profesor Juan Carlos Correa
 
 ### Objetivo
 
-Describir el trabajo realizado a lo largo del curso con las herrmienat GitHub y ChatGpt.
+Describir el trabajo realizado a lo largo del curso con las herrmientas GitHub y ChatGpt.
 
 ### Proyecto Personal
 
