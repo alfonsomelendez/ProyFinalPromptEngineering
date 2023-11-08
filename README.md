@@ -27,8 +27,6 @@ Las actividades que se desarrollaron en el curso como apoyo al desarrollo del pr
   > Ejemplo 3: Introducción a los grafos dinámicos
 
 Estos tres ejemplos se encuentra como un repositorio de GitHUb, el enlace es: [GML](https://github.com/alfonsomelendez/Graph-Machine-Learning)
-
-#### (Nota el ejemplo se encuentra en los archivos Explanation1.md a Explanation5.md )
    
 ### Actividad final ChatGPT
 
