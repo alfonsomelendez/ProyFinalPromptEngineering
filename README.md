@@ -34,8 +34,13 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
 
 Después de varios intentos, la pregunta realizada al ChatGpt fue la siguiente:
 
-> **_NOTE:_**  The note content.
+> **_NOTE:_** Hello I am a teacher working  in an area called Graph machine Learning I hae a collection of graphs or networks in GML format and I Want to convert them to the format that uses the Libary PY Torch Geometric of standfors University. This format is a format  that uses the following attributes:  data.x: Node feature matrix with shape [num_nodes, num_node_features]
 
+data.edge_index: Graph connectivity in COO format with shape [2, num_edges] and type torch.long
 
+data.edge_attr: Edge feature matrix with shape [num_edges, num_edge_features]
 
+data.y: Target to train against (may have arbitrary shape), e.g., node-level targets of shape [num_nodes, *] or graph-level targets of shape [1, *]
+
+data.pos: Node position matrix with shape [num_nodes, num_dimensions]
 
