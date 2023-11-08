@@ -33,7 +33,7 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
       b. Predicción de enalces en una red.
 
 ### Pregunta al ChatGpt
-Después de varios intentos, la pregunta realizada al ChatGpt fue la siguiente:
+Después de **muchos** intentos, la pregunta realizada al ChatGpt fue la siguiente:
 
 > **_Pregunta:_** Hello I am a teacher working  in an area called Graph machine Learning I hae a collection of graphs or networks in GML format and I Want to convert them to the format that uses the Libary PY Torch Geometric of standfors University. This format is a format  that uses the following attributes:
 
