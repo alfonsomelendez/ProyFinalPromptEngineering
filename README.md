@@ -42,3 +42,90 @@ Después de varios intentos, la pregunta realizada al ChatGpt fue la siguiente:
 4. data.y: Target to train  (may have arbitrary shape), e.g., node-level targets of shape [num_nodes, *] or graph-level  of shape [1, *]
 5. data.pos: Node position matrix with shape [num_nodes, num_dimensions]
 
+
+La respuesta dada por el ChatGpt fue la siguiente:
+
+To convert your GML format graphs into the format required by PyTorch Geometric, which includes the attributes `data.x`, `data.edge_index`, `data.edge_attr`, `data.y`, and `data.pos`, you'll need to follow a specific process for each of these attributes:
+
+1. **data.x (Node Feature Matrix)**:
+   - Extract node features from your GML graphs and represent them as a NumPy or PyTorch tensor with shape `[num_nodes, num_node_features]`.
+   - Load this tensor into a PyTorch Geometric `Data` object using the `x` attribute.
+
+Here's a simplified example for `data.x`:
+
+```python
+import torch
+from torch_geometric.data import Data
+
+# Load node features into a tensor (replace this with your GML parsing)
+node_features = torch.tensor([[0.1, 0.2, 0.3], [0.4, 0.5, 0.6], ...], dtype=torch.float)
+
+data = Data(x=node_features)
+```
+
+2. **data.edge_index (Graph Connectivity)**:
+   - Extract the graph connectivity information from your GML graphs. This typically involves specifying which nodes are connected to each other. You can represent this as a NumPy or PyTorch tensor in COO (Coordinate List) format with shape `[2, num_edges]`.
+   - Load this tensor into the PyTorch Geometric `Data` object using the `edge_index` attribute.
+
+Here's a simplified example for `data.edge_index`:
+
+```python
+import torch
+from torch_geometric.data import Data
+
+# Load graph connectivity in COO format (replace this with your GML parsing)
+edge_index = torch.tensor([[0, 1, 1, 2], [1, 0, 2, 1]], dtype=torch.long)
+
+data = Data(edge_index=edge_index)
+```
+
+3. **data.edge_attr (Edge Feature Matrix)**:
+   - Extract edge features from your GML graphs and represent them as a NumPy or PyTorch tensor with shape `[num_edges, num_edge_features]`.
+   - Load this tensor into the PyTorch Geometric `Data` object using the `edge_attr` attribute.
+
+Here's a simplified example for `data.edge_attr`:
+
+```python
+import torch
+from torch_geometric.data import Data
+
+# Load edge features into a tensor (replace this with your GML parsing)
+edge_features = torch.tensor([[0.1, 0.2], [0.3, 0.4], ...], dtype=torch.float)
+
+data = Data(edge_attr=edge_features)
+```
+
+4. **data.y (Target)**:
+   - Extract the target values you want to train against (e.g., node-level or graph-level targets) from your GML graphs and represent them as a NumPy or PyTorch tensor. The shape of this tensor may vary depending on your specific task.
+   - Load this tensor into the PyTorch Geometric `Data` object using the `y` attribute.
+
+Here's a simplified example for `data.y` (assuming node-level targets):
+
+```python
+import torch
+from torch_geometric.data import Data
+
+# Load target values into a tensor (replace this with your GML parsing)
+target_values = torch.tensor([0, 1, 0, 2, ...], dtype=torch.long)
+
+data = Data(y=target_values)
+```
+
+5. **data.pos (Node Position Matrix)**:
+   - Extract node positions (coordinates) from your GML graphs and represent them as a NumPy or PyTorch tensor with shape `[num_nodes, num_dimensions]`.
+   - Load this tensor into the PyTorch Geometric `Data` object using the `pos` attribute.
+
+Here's a simplified example for `data.pos`:
+
+```python
+import torch
+from torch_geometric.data import Data
+
+# Load node positions into a tensor (replace this with your GML parsing)
+node_positions = torch.tensor([[x1, y1], [x2, y2], ...], dtype=torch.float)
+
+data = Data(pos=node_positions)
+```
+
+Once you've completed these steps for each of the attributes, you can create a PyTorch Geometric `Data` object that represents your graph in the desired format. You can then use these data objects for graph machine learning tasks with PyTorch Geometric.
+
