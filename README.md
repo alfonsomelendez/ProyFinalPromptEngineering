@@ -35,7 +35,7 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
 
 1. Construir un algoritmo para convertir archivos de redes o grafos en formato GML, al formato usado por la librería PYG (PyTorch Geometric) de la Universidad  de Stanford con el fin de usar estos archivos en procesos de Graph Machine Learning como:
       a. Predicción de nodos en una red
-      b. Predicción de enalces en una red
+      b. Predicción de enlaces en una red
 
 
    
