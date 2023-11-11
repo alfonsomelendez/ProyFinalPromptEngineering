@@ -45,6 +45,7 @@ Después de **muchos** intentos, la pregunta final más específica realizada al
 <br>
 <br>
 <br>
+<br>
 
 
 ---
@@ -58,12 +59,20 @@ Hello I am a teacher working  in an area called Graph machine Learning I hae a c
 
 ---
 
+<br>
+<br>
+<br>
+<br>
 
 
 ### Respuesta del ChatGpt
 
 El ChatGPT respondió con un algoritmo o proceso específico para cada atributo del grafo en el formato usado por la librería PyTorch Geometric, este código al ser colocado  en un Jupyter Notebook reemplazando los datos ficticios por los datos reales del grafo en formato GML, **dió lugar a la conversión correcta de los grafos**.  La respuesta dada por el ChatGpt fue la siguiente:
 
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -155,6 +164,10 @@ Once you've completed these steps for each of the attributes, you can create a P
 
 ---
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
