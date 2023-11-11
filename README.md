@@ -37,11 +37,18 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
       a. Predicción de nodos en una red
       b. Predicción de enalces en una red.
 
+
+---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
+
 ### Pregunta al ChatGpt
 Después de **muchos** intentos, la pregunta final más específica realizada al ChatGpt y que tuvo como resultado un código funcional fue la siguiente:
 
-> **_Pregunta:_** Hello I am a teacher working  in an area called Graph machine Learning I hae a collection of graphs or networks in GML format and I Want to convert them to the format that uses the Library PY Torch Geometric of standfors University. This format is a format  that uses the following attributes:
-
+> **_Pregunta:_** Hello I am a teacher working  in an area called Graph machine Learning I hae a collection of graphs or networks in GML format and I Want to convert them to the format that uses the Library PY Torch Geometric of standfors University. This format is a format  that uses the following attributes
 1. Node feature matrix with shape [num_nodes, num_node_features]
 2. data.edge_index: Graph connectivity in COO format with shape [2, num_edges] and type torch.long
 3. data.edge_attr: Edge feature matrix with shape [num_edges, num_edge_features]
