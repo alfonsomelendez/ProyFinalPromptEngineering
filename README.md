@@ -42,6 +42,9 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
 ### Pregunta al ChatGpt
 Después de **muchos** intentos, la pregunta final más específica realizada al ChatGpt y que tuvo como resultado un código funcional fue la siguiente:
 
+
+
+
 ---
 
 Hello I am a teacher working  in an area called Graph machine Learning I hae a collection of graphs or networks in GML format and I Want to convert them to the format that uses the Library PY Torch Geometric of standfors University. This format is a format  that uses the following attributes
@@ -52,9 +55,15 @@ Hello I am a teacher working  in an area called Graph machine Learning I hae a c
 5. data.pos: Node position matrix with shape [num_nodes, num_dimensions]
 
 ---
+
+
+
 ### Respuesta del ChatGpt
 
 El ChatGPT respondió con un algoritmo o proceso específico para cada atributo del grafo en el formato usado por la librería PyTorch Geometric, este código al ser colocado  en un Jupyter Notebook reemplazando los datos ficticios por los datos reales del grafo en formato GML, **dió lugar a la conversión correcta de los grafos**.  La respuesta dada por el ChatGpt fue la siguiente:
+
+
+
 
 ---
 
@@ -143,4 +152,7 @@ data = Data(pos=node_positions)
 Once you've completed these steps for each of the attributes, you can create a PyTorch Geometric `Data` object that represents your graph in the desired format. You can then use these data objects for graph machine learning tasks with PyTorch Geometric.
 
 ---
+
+
+
 
