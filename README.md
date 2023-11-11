@@ -41,10 +41,6 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
 ---
 **NOTE**
 
-It works with almost all markdown flavours (the below blank line matters).
-
----
-
 ### Pregunta al ChatGpt
 Después de **muchos** intentos, la pregunta final más específica realizada al ChatGpt y que tuvo como resultado un código funcional fue la siguiente:
 
@@ -55,6 +51,7 @@ Después de **muchos** intentos, la pregunta final más específica realizada al
 4. data.y: Target to train  (may have arbitrary shape), e.g., node-level targets of shape [num_nodes, *] or graph-level  of shape [1, *]
 5. data.pos: Node position matrix with shape [num_nodes, num_dimensions]
 
+---
 ### Respuesta del ChatGpt
 
 El ChatGPT respondió con un algoritmo o proceso específico para cada atributo del grafo en el formato usado por la librería PyTorch Geometric, este código al ser colocado  en un Jupyter Notebook reemplazando los datos ficticios por los datos reales del grafo en formato GML, **dió lugar a la conversión correcta de los grafos**.  La respuesta dada por el ChatGpt fue la siguiente:
