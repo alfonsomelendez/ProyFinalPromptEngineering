@@ -42,7 +42,9 @@ En este caso se realizó la interacción con ChatGpt con el objetivo de :
 ### Pregunta al ChatGpt
 Después de **muchos** intentos, la pregunta final más específica realizada al ChatGpt y que tuvo como resultado un código funcional fue la siguiente:
 
-
+<br>
+<br>
+<br>
 
 
 ---
