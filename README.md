@@ -56,6 +56,8 @@ Hello I am a teacher working  in an area called Graph machine Learning I hae a c
 
 El ChatGPT respondió con un algoritmo o proceso específico para cada atributo del grafo en el formato usado por la librería PyTorch Geometric, este código al ser colocado  en un Jupyter Notebook reemplazando los datos ficticios por los datos reales del grafo en formato GML, **dió lugar a la conversión correcta de los grafos**.  La respuesta dada por el ChatGpt fue la siguiente:
 
+---
+
 To convert your GML format graphs into the format required by PyTorch Geometric, which includes the attributes `data.x`, `data.edge_index`, `data.edge_attr`, `data.y`, and `data.pos`, you'll need to follow a specific process for each of these attributes:
 
 1. **data.x (Node Feature Matrix)**:
@@ -139,4 +141,6 @@ data = Data(pos=node_positions)
 ```
 
 Once you've completed these steps for each of the attributes, you can create a PyTorch Geometric `Data` object that represents your graph in the desired format. You can then use these data objects for graph machine learning tasks with PyTorch Geometric.
+
+---
 
